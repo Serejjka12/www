@@ -1,0 +1,265 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+/* ____________________________ */
+
+* {
+    font-family: Gilroy;
+}
+
+.blockone {
+    padding: 33px 253px 0px 252px;
+}
+
+.title__blockone {
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.title__blockone :first-child {
+    color: black;
+}
+
+.line__blockone {
+    border: 1px solid #828282;
+    display: flex;
+    justify-content: flex-start;
+    margin: 31.98px 0px 0px 0px;
+}
+
+.inf__blockone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name__blockone {
+    font-weight: bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    margin: 40.13px 0px 0px 0px;
+}
+
+.age__blockone {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 95.21px 0px 0px 0px;
+}
+
+.humanimage__blockone {
+    margin: 30.64px 0px 104px 0px;
+    display: flex;
+    justify-content: center;
+}
+.blocktwo {
+    background-color: #f6f6f6;
+    padding: 120px 0px 200px 0px;
+}
+.title__blocktwo {
+    margin: 0px 0px 17.69px 0px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text__blocktwo {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.text__blocktwo div {
+    margin: 91px 0px 40px 0px;
+}
+
+.blockthree {
+    margin: 100px 255px 91px 252px;
+}
+
+.title__blockthree {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    margin: 91px 0px 69.1px 0px;
+}
+
+.subtitle__blockthree {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 300;
+    padding: 0px 0px 87.27px 0px;
+}
+
+.icons__blockthree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars__blockthree {
+    display: flex;
+    justify-content: space-around;
+}
+.ps__blockthree div {
+    padding: 0px 0px 40px 0px;
+}
+
+.ai__blockthree div {
+    padding: 0px 0px 40px 0px;
+}
+
+.ae__blockthree div {
+    padding: 0px 0px 40px 0px;
+}
+
+.figma__blockthree div {
+    padding: 0px 0px 40px 0px;
+}
+
+.text__blockthree {
+    text-align: center;
+}
+
+.blockfour {
+    background: #f6f6f6;
+    padding: 112.93px 0px 0px 0px;
+}
+
+.title__blockfour {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    padding: 112.93px 0px 0px 0px;
+}
+
+.blockfour div {
+    padding: 0px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__blockfour {
+    text-decoration-line: underline;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.contact__blockfive {
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: bold;
+    margin: 50px 0px 0px 0px;
+}
+.text__blockfive {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.title__blockfive div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 0px 0px;
+}
+
+.icons__blockfive {
+    padding: 80px 552px 0px 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lasttitle__blockfive {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: 300;
+    padding: 45px 0px 123px 0px;
+}
